@@ -1,0 +1,8 @@
+@font-face{
+	font-family: 'stiff staff';
+	src: url('fonts/stiffstaff/stiff_staff-webfont.eot');
+	src: url('fonts/stiffstaff/stiff_staff-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/stiffstaff/stiff_staff-webfont.woff') format('woff'),
+	     url('Wfonts/stiffstaff/stiff_staff-webfont.ttf') format('truetype'),
+	     url('Wfonts/stiffstaff/stiff_staff-webfont.svg#webfont') format('svg');
+}
