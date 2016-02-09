@@ -1,4 +1,4 @@
-![Logo Chaostreff Flensburg](./doc/readme/img/ctfl-logo_250x128.png)
+![Logo Chaostreff Flensburg](./doc/logo.png)
 
 ---
 ## chaostreff-flensburg.de
