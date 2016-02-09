@@ -8,5 +8,5 @@ This repository is used for the development of our new website for public relati
 
 ### To Do's
 
--cms für die Projektseite
-    -neues repository 
+cms für die Projektseite
+  neues repository 
