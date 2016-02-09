@@ -8,5 +8,14 @@ This repository is used for the development of our new website for public relati
 
 ### To Do's
 
-cms für die Projektseite
-neues repository 
+- [ ] Highlight
+- [ ] Navigation
+- [ ] About
+- [ ] Projekte
+  - [ ] Excerpt
+  - [ ] Unterseite
+- [ ] Triff uns
+- [ ] Blog
+  - [ ] automatischer Excerpt
+- [ ] Papierkram
+- [ ] Footer
