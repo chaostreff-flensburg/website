@@ -38,3 +38,35 @@ button::-moz-focus-inner {
   border: 0;
 }
 
+/*
+main elements
+=======================================
+*/
+
+body {
+  line-height: 1.4;
+}
+h1 {
+  font-weight: 700;
+  color: #4a4949;
+  font-size: 150%;
+}
+h2 {
+  font-weight: 700;
+  color: #4a4949;
+}
+h3 {
+  font-weight: 700;
+  color: #4a4949;
+}
+h4 {
+  font-weight: 700;
+  color: #4a4949;
+}
+p {
+  color: #4a4949;
+}
+
+/*
+=======================================
+*/
