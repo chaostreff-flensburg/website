@@ -9,6 +9,13 @@ header{
   margin-bottom: 0.5rem;
 }
 
+.smallheader{
+  background-image: url("../images/universe.jpg");
+  background-repeat: repeat-x;
+  height:200px;
+  margin-bottom: 0.5rem;
+}
+
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
@@ -32,6 +39,17 @@ footer{
   width: 30%;
   margin: auto;
 }
+
+.smallheaderEarth{
+  position: absolute;
+  left:0;
+  right:0;
+  top:2rem;
+  display: block;
+  width: 15%;
+  margin: auto;
+}
+
 
 .headerMoon{
   position: absolute;
