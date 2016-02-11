@@ -2,6 +2,10 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
+.font{
+  font-family: 'Fira Sans', sans-serif;
+}
+
 header{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
@@ -88,6 +92,10 @@ footer{
 }
 
 .articleBlog{
+
+}
+
+.articleMeetBlog{
 
 }
 
