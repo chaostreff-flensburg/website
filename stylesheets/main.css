@@ -5,6 +5,30 @@ header{
   margin-bottom: 0.5rem;
 }
 
+.headerStars{
+  background-image: url("../images/stars.png");
+  background-size: auto  446px ;
+  background-repeat: repeat-x;
+  position: relative;
+  height: 446px;
+}
+
+.headerEarth{
+  position: absolute;
+  left:0;
+  right:0;
+  top:5rem;
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+.headerMoon{
+  position: absolute;
+  left:7rem;
+  top:4rem;
+  width:15%;
+}
 .box{
   margin:0.5rem;
 }
