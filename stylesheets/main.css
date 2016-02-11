@@ -23,7 +23,7 @@ header{
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
-  height:100px;
+  height:150px;
 }
 
 .headerStars{
@@ -106,4 +106,40 @@ footer{
 
 .columnRight{
   background-color: yellow;
+}
+
+.footerLink {
+  margin: 1em;
+  display: inline-block;
+  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: white;
+}
+.footerSvg {
+  margin-right: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+.footerFacebook {
+  border-style: solid;
+  border-color: white;
+  margin-top: 1rem;
+}
+.footerTwitter {
+  border-style: solid;
+  border-color: white;
+  margin-top: 1rem;
+}
+.footerGithub {
+  border-style: solid;
+  border-color: white;
+  margin-top: 1rem;
+}
+
+.footerYoutube {
+  border-style: solid;
+  border-color: white;
+  margin-top: 1rem;
 }
