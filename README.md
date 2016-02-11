@@ -10,6 +10,7 @@ This repository is used for the development of our new website for public relati
 
 - [ ] Main Visual
 - [ ] Navigation
+- [ ] import pure css via npm https://www.npmjs.com/package/purecss
 - [ ] About
 - [ ] Projekte
   - [ ] Excerpt
