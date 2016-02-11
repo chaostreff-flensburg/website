@@ -19,6 +19,8 @@ This repository is used for the development of our new website for public relati
   - [ ] automatischer Excerpt
 - [ ] Papierkram
 - [ ] Footer
+- [ ] Kontakt
+- [ ] impressum
 - [ ] Deployment via Travis-CI
   - [x] activate Travis
   - [x] Test script
