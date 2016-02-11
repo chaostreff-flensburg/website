@@ -5,10 +5,13 @@ header{
   margin-bottom: 0.5rem;
 }
 
+.box{
+  margin:0.5rem;
+}
+
 .articleContent{
   margin:auto;
   width:90%;
-  background-color: blue;
 }
 
 .articleAbout{
