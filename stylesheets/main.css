@@ -55,7 +55,11 @@ header{
 
 }
 
-.aboutLeft{
+.columnLeft{
   background-color: gray;
 
+}
+
+.columnRight{
+  background-color: yellow;
 }
