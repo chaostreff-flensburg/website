@@ -1,7 +1,7 @@
 {
   "name": "chaostreffflensburgde",
   "scripts": {
-    "test": "deploy-via-travis.js"
+    "test": "node deploy-via-travis.js"
   },
   "repository": {
     "type": "git",
@@ -9,5 +9,5 @@
   },
   "bugs": {
     "url": "https://github.com/chaostreff-flensburg/website/issues"
-  },
+  }
 }
