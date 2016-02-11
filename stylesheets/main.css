@@ -2,8 +2,8 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
-address{
-    font-family: 'Fira Sans', sans-serif;
+.font{
+  font-family: 'Fira Sans', sans-serif;
 }
 
 header{
@@ -96,7 +96,7 @@ footer{
 }
 
 .articleMeetBlog{
-  
+
 }
 
 .columnLeft{
