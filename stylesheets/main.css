@@ -5,6 +5,12 @@ header{
   margin-bottom: 0.5rem;
 }
 
+footer{
+  background-image: url("../images/universe.jpg");
+  background-repeat: repeat-x;
+  height:100px;
+}
+
 .headerStars{
   background-image: url("../images/stars.png");
   background-size: auto  446px ;
