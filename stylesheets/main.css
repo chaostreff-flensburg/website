@@ -11,6 +11,8 @@ header{
   background-repeat: repeat-x;
   height:446px;
   margin-bottom: 0.5rem;
+  box-shadow: inset 0px -7.5px 15px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
 }
 
 .smallheader{
@@ -23,15 +25,21 @@ header{
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
+<<<<<<< HEAD
   height:150px;
+=======
+  height:100px;
+  box-shadow: inset 0px 7.5px 15px 0px rgba(0, 0, 0, 0.75);
+>>>>>>> origin/master
 }
 
 .headerStars{
-  background-image: url("../images/stars.png");
+  /*background-image: url("../images/stars.png");
   background-size: auto  446px ;
-  background-repeat: repeat-x;
-  position: relative;
-  height: 446px;
+  background-repeat: repeat-x;*/
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.5));
+  filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.5));
 }
 
 .headerEarth{
@@ -42,6 +50,8 @@ footer{
   display: block;
   width: 30%;
   margin: auto;
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
+  filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
 }
 
 .smallheaderEarth{
@@ -60,6 +70,8 @@ footer{
   left:7rem;
   top:4rem;
   width:15%;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
 }
 .box{
   margin:0.5rem;
