@@ -25,12 +25,8 @@ header{
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
-<<<<<<< HEAD
   height:200px;
-=======
-  height:100px;
   box-shadow: inset 0px 7.5px 15px 0px rgba(0, 0, 0, 0.75);
->>>>>>> origin/master
 }
 
 .headerStars{
