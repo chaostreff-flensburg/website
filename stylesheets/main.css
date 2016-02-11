@@ -1,3 +1,10 @@
+header{
+  background-image: url("../images/universe.jpg");
+  background-repeat: repeat-x;
+  height:446px;
+  margin-bottom: 0.5rem;
+}
+
 .articleContent{
   margin:auto;
   width:90%;
@@ -22,5 +29,5 @@
 
 .aboutLeft{
   background-color: gray;
-  
+
 }
