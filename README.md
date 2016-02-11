@@ -19,6 +19,8 @@ This repository is used for the development of our new website for public relati
 - [ ] Blog
   - [ ] automatischer Excerpt
 - [ ] Papierkram
+  - [ ]html
+  - [ ]css
 - [ ] Footer
 - [ ] Kontakt
 - [ ] impressum
