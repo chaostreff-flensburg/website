@@ -21,5 +21,6 @@ This repository is used for the development of our new website for public relati
 - [ ] Footer
 - [ ] Deployment via Travis-CI
   - [x] activate Travis
+  - [x] Test script
   - [ ] config env
   - [ ] upload via SFTP
