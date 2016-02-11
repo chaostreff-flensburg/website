@@ -1,0 +1,10 @@
+{
+  "name": "chaostreffflensburgde",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaostreff-flensburg/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chaostreff-flensburg/website/issues"
+  },
+}

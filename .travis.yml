@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "stable"
+
+# whitelist
+branches:
+  only:
+    - deploy
+
+deploy:
+  skip_cleanup: true
+
+#ToDo: Deploymentscript for SFTP-Upload via curl

@@ -19,3 +19,7 @@ This repository is used for the development of our new website for public relati
   - [ ] automatischer Excerpt
 - [ ] Papierkram
 - [ ] Footer
+- [ ] Deployment via Travis-CI
+  - [x] activate Travis
+  - [ ] config env
+  - [ ] upload via SFTP
