@@ -21,10 +21,26 @@ header{
   margin-bottom: 0.5rem;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-top: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #262628;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
-  height:200px;
+  height:170px;
   box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.75);width: auto;
   text-align: center;
 }
