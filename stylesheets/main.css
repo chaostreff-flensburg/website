@@ -40,6 +40,11 @@ header{
   overflow: hidden;
 }
 
+@media all and (max-height: 800px) {
+    header {
+        max-height: 202px;
+    }
+}
 .smallheader{
   cursor: pointer;
   background-image: url("../images/universe.jpg");
