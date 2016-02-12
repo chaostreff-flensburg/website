@@ -135,10 +135,14 @@ footer{
   background-color: yellow;
 }
 
+.footerLink p{
+  width:8rem;
+  padding:1rem;
+}
+
 .footerLink {
-  margin: 1em;
+  text-decoration: none;
   display: inline-block;
-  padding: 1em;
   padding-right: 1em;
   padding-left: 1em;
   color: white;
