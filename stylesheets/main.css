@@ -38,6 +38,7 @@ header{
 }
 
 .smallheader{
+  cursor: pointer;
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
   height:200px;
