@@ -163,6 +163,11 @@ footer{
   background-color: yellow;
 }
 
+.googleMaps{
+  height:20rem;
+  width: 100%;
+}
+
 .footerLink p{
   width:8rem;
   padding:1rem;
