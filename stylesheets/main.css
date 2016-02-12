@@ -94,6 +94,12 @@ footer{
   margin: 0.5rem;
 }
 
+
+.ytEmbedd{
+  width:100%;
+  height:20rem;
+}
+
 .articleContent{
   margin:auto;
   margin-bottom: 0.5rem;
