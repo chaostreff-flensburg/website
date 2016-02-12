@@ -8,8 +8,7 @@ body {
 
 header{
   background-image: url("../images/universe.jpg");
-  background-repeat: repeat-x;
-  height:446px;
+  height: 29rem;
   margin-bottom: 0.5rem;
   box-shadow: inset 0px -7.5px 15px 0px rgba(0, 0, 0, 0.75);
   overflow: hidden;
@@ -31,14 +30,13 @@ footer{
 }
 
 .headerStars{
-  /*background-image: url("../images/stars.png");
-  background-size: auto  446px ;
-  background-repeat: repeat-x;*/
   width: 100%;
-  animation: pulse 10s infinite;
-  animation-delay: 2s;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+  filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+  /*animation: pulse 10s infinite;
+  animation-delay: 2s;*/
 }
-
+/*
 @keyframes pulse {
   0% {
     -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.25)) blur(0px);
@@ -53,7 +51,7 @@ footer{
     filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.25)) blur(0px);
   }
 }
-
+*/
 .headerEarth{
   position: absolute;
   left:0;
@@ -75,7 +73,6 @@ footer{
   width: 15%;
   margin: auto;
 }
-
 
 .headerMoon{
   position: absolute;
