@@ -152,7 +152,16 @@ footer{
 .articleProjects{
 }
 
-.articleProjects section {
+.foerdefunk h3 {
+  border-bottom: solid 2px red;
+}
+
+.druck h3 {
+  border-bottom: solid 2px #488dcb;
+}
+
+.otherprojects h3 {
+  border-bottom: solid 2px yellow;
 }
 
 .articleMeet{
