@@ -25,7 +25,7 @@ footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
   height:200px;
-  box-shadow: inset 0px 7.5px 15px 0px rgba(0, 0, 0, 0.75);width: auto;
+  box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.75);width: auto;
   text-align: center;
 }
 
