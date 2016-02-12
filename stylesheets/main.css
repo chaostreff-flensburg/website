@@ -40,7 +40,7 @@ header{
   overflow: hidden;
 }
 
-@media all and (max-height: 800px) {
+@media all and (max-height: 627px) {
     header {
         max-height: 202px;
     }
