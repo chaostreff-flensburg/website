@@ -64,8 +64,6 @@ nav a {
   font-size: 1.5rem;
 }
 
-
-
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat;
@@ -152,10 +150,20 @@ footer{
 .articleProjects{
 }
 
-.articleProjects section {
+.foerdefunk h3 {
+  border-bottom: solid 2px red;
+}
+
+.druck h3 {
+  border-bottom: solid 2px #488dcb;
+}
+
+.otherprojects h3 {
+  border-bottom: solid 2px yellow;
 }
 
 .articleMeet{
+  margin-bottom: 3rem;
 }
 
 .articleMeet .columnLeft .box {
