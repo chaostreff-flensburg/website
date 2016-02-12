@@ -8,9 +8,8 @@ This repository is used for the development of our new website for public relati
 
 ### To Do's
 
-- [ ] Main Visual
+- [X] Main Visual
 - [ ] Navigation
-- [ ] import pure css via npm https://www.npmjs.com/package/purecss
 - [ ] About
 - [ ] Projekte
   - [ ] Excerpt
@@ -21,7 +20,7 @@ This repository is used for the development of our new website for public relati
 - [ ] Papierkram
   - [ ]html
   - [ ]css
-- [ ] Footer
+- [X] Footer
 - [ ] Kontakt
 - [ ] impressum
 - [ ] Deployment via Travis-CI

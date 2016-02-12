@@ -8,9 +8,10 @@ body {
 
 header{
   background-image: url("../images/universe.jpg");
-  background-repeat: repeat-x;
-  height:446px;
+  height: 29rem;
   margin-bottom: 0.5rem;
+  box-shadow: inset 0px -7.5px 15px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
 }
 
 .smallheader{
@@ -23,17 +24,34 @@ header{
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat-x;
-  height:100px;
+  height:200px;
+  box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.75);width: auto;
+  text-align: center;
 }
 
 .headerStars{
-  background-image: url("../images/stars.png");
-  background-size: auto  446px ;
-  background-repeat: repeat-x;
-  position: relative;
-  height: 446px;
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+  filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+  /*animation: pulse 10s infinite;
+  animation-delay: 2s;*/
 }
-
+/*
+@keyframes pulse {
+  0% {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.25)) blur(0px);
+    filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.25)) blur(0px);
+  }
+  50% {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+    filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+  }
+  100% {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.25)) blur(0px);
+    filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.25)) blur(0px);
+  }
+}
+*/
 .headerEarth{
   position: absolute;
   left:0;
@@ -42,6 +60,8 @@ footer{
   display: block;
   width: 30%;
   margin: auto;
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
+  filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
 }
 
 .smallheaderEarth{
@@ -54,12 +74,13 @@ footer{
   margin: auto;
 }
 
-
 .headerMoon{
   position: absolute;
   left:7rem;
   top:4rem;
   width:15%;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
 }
 .box{
   margin:0.5rem;
@@ -106,4 +127,46 @@ footer{
 
 .columnRight{
   background-color: yellow;
+}
+
+.footerLink {
+  margin: 1em;
+  display: inline-block;
+  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: white;
+}
+.footerSvg {
+  margin-right: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+.footerFacebook {
+  border-style: solid;
+  border-color: white;
+  margin-top: 3rem;
+}
+.footerTwitter {
+  border-style: solid;
+  border-color: white;
+  margin-top: 3rem;
+}
+.footerGithub {
+  border-style: solid;
+  border-color: white;
+  margin-top: 3rem;
+}
+
+.footerYoutube {
+  border-style: solid;
+  border-color: white;
+  margin-top: 4.5rem;
+}
+
+.footerImpressum{
+  border-style: solid;
+  border-color: white;
+  margin-top: 4.5rem;
 }
