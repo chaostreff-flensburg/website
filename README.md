@@ -15,6 +15,7 @@ This repository is used for the development of our new website for public relati
 - [ ] Projekte
   - [ ] Excerpt
   - [ ] Unterseite
+  - [ ] Inhalte verlinken
 - [X] Triff uns
 - [ ] Blog
   - [ ]Theme
