@@ -1,9 +1,11 @@
 body {
   font-family: 'Fira Sans', sans-serif;
+  line-height: 1.6;
 }
 
 h1 {
   color: #262628;
+  font-weight: 200;
 }
 
 h2 {
@@ -14,8 +16,17 @@ h3 {
   color: #262628;
 }
 
+h4 {
+  color: #262628;
+}
+
 p {
   color: #262628;
+}
+
+a {
+  color: #488dcb;
+  text-decoration: none;
 }
 
 header{
