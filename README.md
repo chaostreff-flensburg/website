@@ -16,7 +16,7 @@ This repository is used for the development of our new website for public relati
   - [ ] Unterseite
 - [ ] Triff uns
 - [ ] Blog
-  - [ ] automatischer Excerpt
+  - [x] automatischer Excerpt
 - [ ] Papierkram
   - [ ]html
   - [ ]css
