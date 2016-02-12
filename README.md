@@ -10,19 +10,19 @@ This repository is used for the development of our new website for public relati
 
 - [X] Main Visual
 - [ ] Navigation
-- [ ] About
+- [X] About
+  - [ ]Trailer
 - [ ] Projekte
   - [ ] Excerpt
   - [ ] Unterseite
-- [ ] Triff uns
+- [X] Triff uns
 - [ ] Blog
+  - [ ]Theme
   - [x] automatischer Excerpt
-- [ ] Papierkram
-  - [ ] html
-  - [ ] css
+- [X] Papierkram
 - [X] Footer
 - [ ] Kontakt
-- [ ] impressum
+- [X] impressum
 - [ ] Deployment via Travis-CI
   - [x] activate Travis
   - [x] Test script
