@@ -159,6 +159,10 @@ footer{
 
 }
 
+.articleBlog .columnLeft .box{
+  min-height: 300px;
+}
+
 .articleMeetBlog{
 
 }
