@@ -150,11 +150,16 @@ footer{
 }
 
 .articleProjects{
+}
 
+.articleProjects section {
 }
 
 .articleMeet{
+}
 
+.articleMeet .columnLeft .box {
+  padding-right: 2rem;
 }
 
 .articleBlog{
