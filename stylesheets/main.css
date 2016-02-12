@@ -39,8 +39,8 @@ nav a {
 
 footer{
   background-image: url("../images/universe.jpg");
-  background-repeat: repeat-x;
-  height:170px;
+  background-repeat: repeat;
+  min-height:170px;
   box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.75);width: auto;
   text-align: center;
 }
