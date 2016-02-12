@@ -18,8 +18,8 @@ This repository is used for the development of our new website for public relati
 - [ ] Blog
   - [x] automatischer Excerpt
 - [ ] Papierkram
-  - [ ]html
-  - [ ]css
+  - [ ] html
+  - [ ] css
 - [X] Footer
 - [ ] Kontakt
 - [ ] impressum
