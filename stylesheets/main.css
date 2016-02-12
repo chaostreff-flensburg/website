@@ -108,6 +108,10 @@ footer{
   margin:0.5rem;
 }
 
+.chaosknoten {
+  /* Hier zentriert Flemming den Chaosknoten auf der Hauptseite. */
+}
+
 .articleProjects section:nth-child(3){
   margin: auto;
 }
