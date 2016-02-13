@@ -13,7 +13,7 @@ article {
   padding-left: 1rem;
   padding-right: 1rem;
   margin:auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 /* Thanks to PureCSS .box is kind of a basic Tag. Mehh.. */
@@ -132,7 +132,7 @@ nav a {
 /* === ABOUT === */
 
 .chaosknoten {
-  width: 60%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
