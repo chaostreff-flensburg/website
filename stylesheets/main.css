@@ -145,12 +145,17 @@ nav a {
 
 /* === PROJECTS === */
 
-.articleProjects section:nth-child(3){
-  margin: auto;
+.projectcontainer {
+  display: flex;
+  justify-content: space-around;;
+  align-items: flex-start;;
+  flex-wrap: wrap;
 }
 
-.projectBox{
-  margin: 0.5rem;
+.project {
+  margin: 0px 0.5rem 0px 0.5rem;
+  width: 30%;
+  min-width: 300px;
 }
 
 .foerdefunk h3 {
@@ -163,6 +168,10 @@ nav a {
 
 .otherprojects h3 {
   border-bottom: solid 2px yellow;
+}
+
+.projectlink {
+  float: right;
 }
 
 
