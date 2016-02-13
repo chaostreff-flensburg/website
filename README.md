@@ -8,28 +8,28 @@ This repository is used for the development of our new website for public relati
 
 ### To Do's
 
-- [X] Main Visual
+- [x] Main Visual
 - [x] Navigation
-- [X] About
+- [x] About
   - [ ]Trailer
 - [ ] Projekte
   - [ ] Excerpt
   - [ ] Unterseite
   - [x] Inhalte verlinken
-- [X] Triff uns
+- [x] Triff uns
 - [ ] Blog
   - [ ] Theme
   - [x] automatischer Excerpt
-- [X] Papierkram
-- [X] Footer
+- [x] Papierkram
+- [x] Footer
 - [x] Kontakt
-- [X] impressum
-- [ ] Deployment via Travis-CI
+- [x] impressum
+- [x] Deployment via Travis-CI
   - [x] activate Travis
   - [x] Test script
-  - [ ] config env
-  - [ ] upload via SFTP
+  - [x] config env
+  - [x] upload via SFTP
 
-### Deployment (Not working yet..)
+### Deployment
 
-Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production.
+Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production. Preview until DNS is redirected: [chaos.roikier.media](http://chaos.roikier.media/)
