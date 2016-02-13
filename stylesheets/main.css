@@ -74,6 +74,12 @@ nav a {
   font-size: 1.5rem;
 }
 
+article {
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 footer{
   background-image: url("../images/universe.jpg");
   background-repeat: repeat;
@@ -150,7 +156,6 @@ footer{
 .articleContent{
   margin:auto;
   margin-bottom: 1.5rem;
-  width:90%;
 }
 
 .articleAbout{
