@@ -168,6 +168,15 @@ nav a {
 
 /* === MEET US === */
 
+.bloglink {
+  float:right;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+
+/* === MEET US === */
+
 .articleMeet{
   margin-bottom: 3rem;
 }
