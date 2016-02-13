@@ -250,18 +250,16 @@ footer{
   border-color: white;
   margin-top: 3rem;
 }
-.footerGithub {
-  border-style: solid;
-  border-color: white;
-  margin-top: 3rem;
-}
-
 .footerYoutube {
   border-style: solid;
   border-color: white;
   margin-top: 4.5rem;
 }
-
+.footerGithub {
+  border-style: solid;
+  border-color: white;
+  margin-top: 3rem;
+}
 .footerImpressum{
   border-style: solid;
   border-color: white;
