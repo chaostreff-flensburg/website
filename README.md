@@ -9,7 +9,7 @@ This repository is used for the development of our new website for public relati
 ### To Do's
 
 - [X] Main Visual
-- [ ] Navigation
+- [x] Navigation
 - [X] About
   - [ ]Trailer
 - [ ] Projekte
@@ -18,7 +18,7 @@ This repository is used for the development of our new website for public relati
   - [ ] Inhalte verlinken
 - [X] Triff uns
 - [ ] Blog
-  - [ ]Theme
+  - [ ] Theme
   - [x] automatischer Excerpt
 - [X] Papierkram
 - [X] Footer
