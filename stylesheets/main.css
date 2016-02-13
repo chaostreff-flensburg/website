@@ -1,7 +1,28 @@
+/* main.css */
+
+
+/* === BASIC TAGS ===*/
+
 body {
   font-family: 'Fira Sans', sans-serif;
   line-height: 1.6;
 }
+
+article {
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin:auto;
+  margin-bottom: 1.5rem;
+}
+
+/* Thanks to PureCSS .box is kind of a basic Tag. Mehh.. */
+.box{
+  margin:0.5rem;
+}
+
+
+/* === TEXT === */
 
 h1 {
   color: #262628;
@@ -32,34 +53,15 @@ a {
   text-decoration: none;
 }
 
+
+/* === HEADER === */
+
 header{
   background-image: url("../images/universe.jpg");
   height: 29rem;
   margin-bottom: 0.5rem;
   box-shadow: inset 0px -7.5px 15px 0px rgba(0, 0, 0, 0.75);
   overflow: hidden;
-}
-
-@media (max-width: 700px) {
-  header {
-    height: 15rem;
-  }
-  .headerEarth {
-    max-width: 200px;
-    top: 2.5rem !important;
-  }
-  nav {
-    justify-content: center !important;
-  }
-  nav a {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 320px) {
-  nav a {
-    font-size: 1.25rem !important;
-  }
 }
 
 .smallheader{
@@ -69,30 +71,6 @@ header{
   height:200px;
   margin-bottom: 0.5rem;
 }
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 5%;
-  margin-top: 1rem;
-  margin-bottom: 1.75rem;
-  max-width: 1440px;
-}
-
-nav a {
-  margin-left: 1.5rem;
-  color: #262628;
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 1.75rem;
-}
-
-article {
-  max-width: 1280px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .headerStars{
   width: 100%;
   -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
@@ -129,9 +107,29 @@ article {
   -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
   filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
 }
-.box{
-  margin:0.5rem;
+
+
+/* === NAV === */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-top: 1rem;
+  margin-bottom: 1.75rem;
+  max-width: 1440px;
 }
+
+nav a {
+  margin-left: 1.5rem;
+  color: #262628;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.75rem;
+}
+
+
+/* === ABOUT === */
 
 .chaosknoten {
   width: 60%;
@@ -144,30 +142,15 @@ article {
   padding-left: 1.5rem;
 }
 
+
+/* === PROJECTS === */
+
 .articleProjects section:nth-child(3){
   margin: auto;
 }
 
 .projectBox{
   margin: 0.5rem;
-}
-
-
-.ytEmbedd{
-  width:100%;
-  height:20rem;
-}
-
-.articleContent{
-  margin:auto;
-  margin-bottom: 1.5rem;
-}
-
-.articleAbout{
-
-}
-
-.articleProjects{
 }
 
 .foerdefunk h3 {
@@ -182,6 +165,9 @@ article {
   border-bottom: solid 2px yellow;
 }
 
+
+/* === MEET US === */
+
 .articleMeet{
   margin-bottom: 3rem;
 }
@@ -190,28 +176,24 @@ article {
   padding-right: 2rem;
 }
 
-.articleBlog{
-
-}
-
 .articleBlog .columnLeft .box{
   min-height: 300px;
 }
 
-.articleMeetBlog{
 
-}
-
-.columnLeft{
-}
-
-.columnRight{
-}
+/* === EMBEDED === */
 
 .googleMaps{
   height:20rem;
   width: 100%;
 }
+
+.ytEmbedd{
+  width:100%;
+  height:20rem;
+}
+
+
 
 /*=== FOOTER ===*/
 
@@ -254,4 +236,30 @@ footer{
 .footerLink p{
   padding:1rem;
   color: white;
+}
+
+/*=== MEDIA QUERIES ===*/
+
+/* Mobile Devices */
+@media (max-width: 700px) {
+  header {
+    height: 15rem;
+  }
+  .headerEarth {
+    max-width: 200px;
+    top: 2.5rem !important;
+  }
+  nav {
+    justify-content: center !important;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Low Resolution Mobile Devices */
+@media (max-width: 320px) {
+  nav a {
+    font-size: 1.25rem !important;
+  }
 }
