@@ -51,6 +51,15 @@ header{
   nav {
     justify-content: center !important;
   }
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  nav a {
+    font-size: 1.25rem !important;
+  }
 }
 
 .smallheader{
