@@ -216,6 +216,22 @@ nav a {
 }
 
 
+/*=== ADDRESS ===*/
+
+address {
+  color: #262628;
+  min-width: 200px;
+  margin-right: 1rem;
+}
+
+.addresscontainer {
+  display: flex;
+  justify-content: flex-start;;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
 /* === EMBEDED === */
 
 .googleMaps{

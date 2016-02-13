@@ -15,14 +15,14 @@ This repository is used for the development of our new website for public relati
 - [ ] Projekte
   - [ ] Excerpt
   - [ ] Unterseite
-  - [ ] Inhalte verlinken
+  - [x] Inhalte verlinken
 - [X] Triff uns
 - [ ] Blog
   - [ ] Theme
   - [x] automatischer Excerpt
 - [X] Papierkram
 - [X] Footer
-- [ ] Kontakt
+- [x] Kontakt
 - [X] impressum
 - [ ] Deployment via Travis-CI
   - [x] activate Travis
