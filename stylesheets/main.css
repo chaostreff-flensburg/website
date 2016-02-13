@@ -1,72 +1,324 @@
-/*
-css reset
-==============================================
-*/
+/* main.css */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style-position: inside;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-a:focus, button:focus {
-  outline: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
 
-/*
-main elements
-=======================================
-*/
+/* === BASIC TAGS ===*/
 
 body {
-  line-height: 1.4;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.6;
 }
+
+article {
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin:auto;
+  margin-bottom: 3rem;
+}
+
+/* Thanks to PureCSS .box is kind of a basic Tag. Mehh.. */
+.box{
+  margin:0.5rem;
+}
+
+
+/* === TEXT === */
+
 h1 {
-  font-weight: 700;
-  color: #4a4949;
-  font-size: 150%;
-}
-h2 {
-  font-weight: 700;
-  color: #4a4949;
-}
-h3 {
-  font-weight: 700;
-  color: #4a4949;
-}
-h4 {
-  font-weight: 700;
-  color: #4a4949;
-}
-p {
-  color: #4a4949;
+  color: #262628;
+  font-weight: 200;
 }
 
-/*
-=======================================
-*/
+h2 {
+  color: #262628;
+  font-weight: 200;
+}
+
+h3 {
+  color: #262628;
+  font-weight: 200;
+}
+
+h4 {
+  color: #262628;
+  font-weight: 200;
+}
+
+p {
+  color: #262628;
+}
+
+a {
+  color: #488dcb;
+  text-decoration: none;
+}
+
+
+/* === HEADER === */
+
+header{
+  background-image: url("../images/universe.jpg");
+  height: 29rem;
+  margin-bottom: 0.5rem;
+  box-shadow: inset 0px -7.5px 15px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.smallheader{
+  cursor: pointer;
+  background-image: url("../images/universe.jpg");
+  background-repeat: repeat-x;
+  height:200px;
+  margin-bottom: 0.5rem;
+}
+.headerStars{
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+  filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)) blur(0.2px);
+}
+
+.headerEarth{
+  position: absolute;
+  left:0;
+  right:0;
+  top:4rem;
+  display: block;
+  width: 425px;
+  margin: auto;
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
+  filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
+}
+
+.smallheaderEarth{
+  position: absolute;
+  left:0;
+  right:0;
+  top:2rem;
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+
+.headerMoon{
+  position: absolute;
+  left:7rem;
+  top:4rem;
+  width:10%;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.5));
+}
+
+
+/* === NAV === */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-top: 1rem;
+  margin-bottom: 1.75rem;
+  max-width: 1440px;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #262628;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.75rem;
+}
+
+
+/* === ABOUT === */
+
+.chaosknoten {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: : auto;
+  margin-bottom: auto;
+  padding-top: 6rem;
+  padding-left: 1.5rem;
+}
+
+
+/* === PROJECTS === */
+
+.projectcontainer {
+  display: flex;
+  justify-content: space-around;;
+  align-items: flex-start;;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 0px 0.5rem 0px 0.5rem;
+  width: 30%;
+  min-width: 300px;
+}
+
+.foerdefunk h3 {
+  border-bottom: solid 2px red;
+}
+
+.druck h3 {
+  border-bottom: solid 2px #488dcb;
+}
+
+.otherprojects h3 {
+  border-bottom: solid 2px yellow;
+}
+
+.projectlink {
+  float: right;
+}
+
+
+/* === BLOG === */
+
+.blogheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chaoslogicon {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.75rem;
+  border-radius: 10%;
+  display: none;
+}
+
+
+/* === MEET US === */
+
+.bloglink {
+  float:right;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+
+/* === MEET US === */
+
+.articleMeet{
+  margin-bottom: 3rem;
+}
+
+.articleMeet .columnLeft .box {
+  padding-right: 2rem;
+}
+
+.articleBlog .columnLeft .box{
+  min-height: 300px;
+}
+
+
+/*=== ADDRESS ===*/
+
+address {
+  color: #262628;
+  min-width: 200px;
+  margin-right: 1rem;
+}
+
+.addresscontainer {
+  display: flex;
+  justify-content: flex-start;;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+/* === EMBEDED === */
+
+.googleMaps{
+  height:20rem;
+  width: 100%;
+}
+
+.ytEmbedd{
+  width:100%;
+  height:20rem;
+}
+
+
+
+/*=== FOOTER ===*/
+
+footer{
+  background-image: url("../images/universe.jpg");
+  background-repeat: repeat;
+  min-height:170px;
+  box-shadow: inset 0px 5px 15px 0px rgba(0, 0, 0, 0.75);width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footerLink {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+  color: white;
+}
+
+.footerLinkContent {
+  display: flex;
+  justify-content: center;
+  min-width: 7rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color: white;
+}
+
+.footerSvg {
+  margin-right: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+.footerLink p{
+  padding:1rem;
+  color: white;
+}
+
+
+/*=== HELPER CLASSES ===*/
+
+.extratopmargin {
+  margin-top: 7.5rem;
+}
+
+
+/*=== MEDIA QUERIES ===*/
+
+/* Mobile Devices */
+@media (max-width: 700px) {
+  header {
+    height: 15rem;
+  }
+  .headerEarth {
+    max-width: 200px;
+    top: 2.5rem !important;
+  }
+  nav {
+    justify-content: center !important;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Low Resolution Mobile Devices */
+@media (max-width: 320px) {
+  nav a {
+    font-size: 1.25rem !important;
+  }
+}
