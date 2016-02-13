@@ -40,11 +40,16 @@ header{
   overflow: hidden;
 }
 
-@media all and (max-height: 627px) {
-    header {
-        max-height: 202px;
-    }
+@media (max-width: 700px) {
+  header {
+    height: 15rem;
+  }
+  .headerEarth {
+    max-width: 200px;
+    top: 2.5rem !important;
+  }
 }
+
 .smallheader{
   cursor: pointer;
   background-image: url("../images/universe.jpg");
@@ -89,7 +94,7 @@ footer{
   right:0;
   top:5rem;
   display: block;
-  width: 30%;
+  width: 400px;
   margin: auto;
   -webkit-filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
   filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.7));
