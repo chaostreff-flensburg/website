@@ -256,6 +256,14 @@ footer{
   color: white;
 }
 
+
+/*=== HELPER CLASSES ===*/
+
+.extratopmargin {
+  margin-top: 7.5rem;
+}
+
+
 /*=== MEDIA QUERIES ===*/
 
 /* Mobile Devices */
