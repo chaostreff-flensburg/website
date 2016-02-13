@@ -175,6 +175,23 @@ nav a {
 }
 
 
+/* === BLOG === */
+
+.blogheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chaoslogicon {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.75rem;
+  border-radius: 10%;
+  display: none;
+}
+
+
 /* === MEET US === */
 
 .bloglink {
