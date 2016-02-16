@@ -1,5 +1,39 @@
 /* main.css */
 
+/* === CSS RESET ===*/
+
+html, body, div, span, applet, object, iframe, abbr, acronym, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style-position: inside;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:focus, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
 
 /* === BASIC TAGS ===*/
 
@@ -27,6 +61,7 @@ article {
 h1 {
   color: #262628;
   font-weight: 200;
+  font-size: 2em;
 }
 
 h2 {
@@ -131,15 +166,28 @@ nav a {
 
 /* === ABOUT === */
 
+.articleAbout {
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutText {
+  max-width: 40rem;
+}
+
+.aboutEvents {
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  flex-grow: 1;
+  margin: 4rem auto 1rem auto;
+}
+
 .chaosknoten {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: : auto;
-  margin-bottom: auto;
-  padding-top: 6rem;
-  padding-left: 1.5rem;
+  max-width: 17.5rem;
 }
 
 
@@ -147,13 +195,13 @@ nav a {
 
 .projectcontainer {
   display: flex;
-  justify-content: space-around;;
-  align-items: flex-start;;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .project {
-  margin: 0px 0.5rem 0px 0.5rem;
+  margin: 0px auto 0px auto;
   width: 30%;
   min-width: 300px;
 }
@@ -177,6 +225,36 @@ nav a {
 
 /* === BLOG === */
 
+.articleBlog {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: 5rem;
+}
+
+.blogPic {
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.raumImg {
+  max-width: 35rem;
+  border-radius: 5px;
+}
+
+.blog {
+  max-width: 40rem;
+  min-height: 300px;
+}
+
 .blogheader {
   display: flex;
   justify-content: flex-start;
@@ -191,9 +269,6 @@ nav a {
   display: none;
 }
 
-
-/* === MEET US === */
-
 .bloglink {
   float:right;
   margin-top: 2rem;
@@ -204,24 +279,53 @@ nav a {
 /* === MEET US === */
 
 .articleMeet{
+  margin-top: 5rem;
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.articleMeet .columnLeft .box {
-  padding-right: 2rem;
+.meetText {
+  max-width: 39rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
 
-.articleBlog .columnLeft .box{
-  min-height: 300px;
+.meetMap {
+  max-width: 60rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.meetMap iframe {
+  width: 90%;
 }
 
 
 /*=== ADDRESS ===*/
 
+.articleContact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.contact {
+  max-width: 40rem;
+}
+
 address {
   color: #262628;
   min-width: 175px;
-  margin-right: 1rem;
+}
+
+.postadresse {
+  margin-right: 0.5rem;
 }
 
 .addresscontainer {
@@ -229,6 +333,12 @@ address {
   justify-content: flex-start;;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+
+.donations {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -291,10 +401,6 @@ footer{
 
 
 /*=== HELPER CLASSES ===*/
-
-.extratopmargin {
-  margin-top: 7.5rem;
-}
 
 
 /*=== MEDIA QUERIES ===*/

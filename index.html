@@ -12,8 +12,6 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <link rel="stylesheet" href="./stylesheets/pure-release-0.6.0/pure-min.css">
-  <link rel="stylesheet" href="./stylesheets/pure-release-0.6.0/grids-responsive-min.css">
   <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./stylesheets/main.css">
 
@@ -38,8 +36,8 @@
   </nav>
 
   <!--About-->
-  <article class="articleContent articleAbout pure-g">
-    <section class="columnLeft pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+  <article class="articleContent articleAbout">
+    <section class="columnLeft aboutText">
       <div class="box">
 
         <h1>Über uns</h1>
@@ -51,20 +49,14 @@
         </p>
       </div>
     </section>
-    <section class="columnRight pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-      <div class="box">
-        <img src="./images/chaosknoten.jpg" class="chaosknoten" alt="" />
-        <!--
-        <iframe class="ytEmbedd" src="https://www.youtube.com/embed/bAaUFiuvKQE" frameborder="0" allowfullscreen></iframe>
-        -->
-      </div>
-
+    <section class="columnRight aboutEvents">
+      <img src="./images/chaosknoten.jpg" class="chaosknoten" alt="" />
     </section>
   </article>
 
   <!--Projekte-->
   <a name="projekte">
-  <article class="articleProjects extratopmargin">
+  <article class="articleProjects">
 
     <h1 class="projecttitle">Projekte</h1>
 
@@ -100,27 +92,13 @@
   </article>
 <!--Blog-->
 <a name="blog">
-  <article class="articleContent articleBlog extratopmargin pure-g">
+  <article class="articleContent articleBlog">
 
-    <section class="columnLeft pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-      <div class="box">
-
-        <a class="twitter-timeline" href="https://twitter.com/chaos_fl" data-widget-id="697941269658652674">Tweets von @chaos_fl </a>
-        <script>
-          ! function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-              p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-              js = d.createElement(s);
-              js.id = id;
-              js.src = p + "://platform.twitter.com/widgets.js";
-              fjs.parentNode.insertBefore(js, fjs);
-            }
-          }(document, "script", "twitter-wjs");
-        </script>
-      </div>
+    <section class="columnLeft blogPic">
+      <img src="./images/raum.jpg" alt="" class="raumImg"/>
     </section>
-    <section class="columnRight pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+
+    <section class="columnRight blog">
       <div class="box" id="blogContent">
         <div class="blogheader">
           <img src="https://raw.githubusercontent.com/chaostreff-flensburg/blog/gh-pages/images/ctfl-logo.jpg" alt="chaoslogicon" class="chaoslogicon" /><h2>Letzter Blogeintrag</h2>
@@ -130,29 +108,27 @@
     </section>
 
   </article>
+
   <!--MeetUs-->
   <a name="triffuns">
-  <article class="articleContent articleMeet extratopmargin pure-g">
-    <section class="columnLeft pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-      <div class="box">
-        <h1>Triff uns</h1>
-        <p>
-          Dienstags ab 17:30 treffen wir uns zum OpenLab, unserer Veranstaltung für Interessierte und neue Mitglieder. Schau' einfach vorbei und lass dir von unseren Mitlgiedern ihre Projekte zeigen, oder bastle selber mit 3D-Drucker, Lötkolben und Elektronik, Siebdruckpresse, Laser und Vielem mehr. Wir helfen dir auch bei den ersten Schritten oder wenn mal etwas hakt. Wenn du schon ein Projekt hast, bring es gerne mit!
-        </p>
-      </div>
+  <article class="articleContent articleMeet">
+    <section class="columnLeft meetText">
+      <h1>Triff uns</h1>
+      <p>
+        Dienstags ab 17:30 treffen wir uns zum OpenLab, unserer Veranstaltung für Interessierte und neue Mitglieder. Schau' einfach vorbei und lass dir von unseren Mitlgiedern ihre Projekte zeigen, oder bastle selber mit 3D-Drucker, Lötkolben und Elektronik, Siebdruckpresse, Laser und Vielem mehr. Wir helfen dir auch bei den ersten Schritten oder wenn mal etwas hakt. Wenn du schon ein Projekt hast, bring es gerne mit!
+      </p>
     </section>
-    <!--Video-->
-    <section class="columnRight pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-      <div class="box">
 
+    <section class="columnRight meetMap">
         <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2300.4177330216526!2d9.4283429!3d54.7902016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b342bed612ad41%3A0xb66fe48b154acd56!2sChaostreff+Flensburg!5e0!3m2!1sde!2sde!4v1455240881777"
-        frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+        frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
     </section>
   </article>
 
-  <article class="articleContent articleContact extratopmargin pure-g">
-    <section class="columnLeft pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+
+  <article class="articleContent articleContact">
+    <section class="columnLeft contact">
       <div class="box">
 
         <h1>Kontakt</h1>
@@ -178,7 +154,7 @@
       </div>
 
     </section>
-    <section class="columnRight pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+    <section class="columnRight donations">
       <div class="box">
         <h1>Spenden</h1>
         <p>
