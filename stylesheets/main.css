@@ -227,9 +227,26 @@ nav a {
 
 .articleBlog {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.blogPic {
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.raumImg {
+  max-width: 35rem;
+  border-radius: 5px;
 }
 
 .blog {
