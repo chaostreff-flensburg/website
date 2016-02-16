@@ -305,10 +305,24 @@ nav a {
 
 /*=== ADDRESS ===*/
 
+.articleContact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact {
+  max-width: 40rem;
+}
+
 address {
   color: #262628;
   min-width: 175px;
-  margin-right: 1rem;
+}
+
+.postadresse {
+  margin-right: 0.5rem;
 }
 
 .addresscontainer {
@@ -316,6 +330,12 @@ address {
   justify-content: flex-start;;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+
+.donations {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
