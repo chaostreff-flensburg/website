@@ -223,6 +223,19 @@ nav a {
 }
 
 
+/* === PROJECT PAGE === */
+
+.projectCollection {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.projectCollection section {
+  max-width: 40rem;
+}
+
 /* === BLOG === */
 
 .articleBlog {
