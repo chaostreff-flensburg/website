@@ -165,6 +165,17 @@ nav a {
 
 /* === ABOUT === */
 
+.articleAbout {
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutText {
+  max-width: 40rem;
+}
+
 .chaosknoten {
   width: 50%;
   display: block;
