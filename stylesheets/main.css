@@ -225,6 +225,17 @@ nav a {
 
 /* === BLOG === */
 
+.articleBlog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blog {
+  max-width: 40rem;
+}
+
 .blogheader {
   display: flex;
   justify-content: flex-start;
