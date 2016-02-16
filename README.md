@@ -11,7 +11,7 @@ This repository is used for the development of our new website for public relati
 - [x] Main Visual
 - [x] Navigation
 - [x] About
-  - [ ]Trailer
+  - [ ] Trailer
 - [ ] Projekte
   - [ ] Excerpt
   - [ ] Unterseite
