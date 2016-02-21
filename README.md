@@ -13,12 +13,11 @@ This repository is used for the development of our new website for public relati
 - [x] About
   - [ ] Trailer
 - [ ] Projekte
-  - [ ] Excerpt
-  - [ ] Unterseite
+  - [x] Unterseite
   - [x] Inhalte verlinken
 - [x] Triff uns
 - [ ] Blog
-  - [ ] Theme
+  - [x] Theme
   - [x] automatischer Excerpt
 - [x] Papierkram
 - [x] Footer
