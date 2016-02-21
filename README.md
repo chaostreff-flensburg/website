@@ -32,10 +32,10 @@ This repository is used for the development of our new website for public relati
 - [ ] Let's Encrypt
   - [ ] chaostreff-flensburg.de
     - [ ] Blog
-    - [ ] Projektseite
-  - [ ] chaos-flensburg.de
+    - [x] Projektseite
+  - [x] chaos-flensburg.de
     - [ ] Blog
-    - [ ] Projektseite
+    - [x] Projektseite
 
 
 ### Deployment
