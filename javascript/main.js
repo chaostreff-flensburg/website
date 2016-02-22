@@ -73,10 +73,20 @@
 
   for (var i=0; i<navLinks.length; i++){
       console.log(i);
+
+      /*
       navLinks[i].addEventListener("click", function(e){
         e.preventDefault();
         console.log(e.srcElement.hash);
         scrollToAnchor(e.srcElement.hash.split("#")[1])
+      })
+      */
+
+      $(navLinks[i]).click(function(e){
+        e.preventDefault();
+        console.log(e.currentTarget.href);
+        //console.log(e.srcElement.hash);
+        scrollToAnchor(e.currentTarget.href.split("#")[1])
       })
     }
 
