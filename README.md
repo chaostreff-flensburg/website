@@ -28,15 +28,6 @@ This repository is used for the development of our new website for public relati
   - [x] Test script
   - [x] config env
   - [x] upload via SFTP
-- [ ] Domain
-- [ ] Let's Encrypt
-  - [ ] chaostreff-flensburg.de
-    - [ ] Blog
-    - [x] Projektseite
-  - [x] chaos-flensburg.de
-    - [ ] Blog
-    - [x] Projektseite
-
 
 ### Deployment
 
