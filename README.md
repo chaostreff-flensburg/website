@@ -31,4 +31,5 @@ This repository is used for the development of our new website for public relati
 
 ### Deployment
 
-Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production. Preview until DNS is redirected: [chaos-flensburg.de](http://chaos-flensburg.de/)
+Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production.  
+Site is live @ [Chaostreff-Flensburg.de](http://chaostreff-flensburg.de).
