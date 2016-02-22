@@ -13,12 +13,11 @@ This repository is used for the development of our new website for public relati
 - [x] About
   - [ ] Trailer
 - [ ] Projekte
-  - [ ] Excerpt
-  - [ ] Unterseite
+  - [x] Unterseite
   - [x] Inhalte verlinken
 - [x] Triff uns
 - [ ] Blog
-  - [ ] Theme
+  - [x] Theme
   - [x] automatischer Excerpt
 - [x] Papierkram
 - [x] Footer
@@ -29,7 +28,16 @@ This repository is used for the development of our new website for public relati
   - [x] Test script
   - [x] config env
   - [x] upload via SFTP
+- [ ] Domain
+- [ ] Let's Encrypt
+  - [ ] chaostreff-flensburg.de
+    - [ ] Blog
+    - [x] Projektseite
+  - [x] chaos-flensburg.de
+    - [ ] Blog
+    - [x] Projektseite
+
 
 ### Deployment
 
-Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production. Preview until DNS is redirected: [chaos.roikier.media](http://chaos.roikier.media/)
+Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production. Preview until DNS is redirected: [chaos-flensburg.de](http://chaos-flensburg.de/)
