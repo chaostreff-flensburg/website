@@ -93,10 +93,13 @@ a {
 
 header{
   background-image: url("../images/universe.jpg");
+  position: fixed;
+  top: 0px;
   height: 29rem;
   margin-bottom: 0.5rem;
-  box-shadow: inset 0px -7.5px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset -7.5px 0px 15px 0px rgba(0, 0, 0, 0.75);
   overflow: hidden;
+  z-index: -1;
 }
 
 .smallheader{
