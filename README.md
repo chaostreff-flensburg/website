@@ -28,16 +28,8 @@ This repository is used for the development of our new website for public relati
   - [x] Test script
   - [x] config env
   - [x] upload via SFTP
-- [ ] Domain
-- [ ] Let's Encrypt
-  - [ ] chaostreff-flensburg.de
-    - [ ] Blog
-    - [x] Projektseite
-  - [x] chaos-flensburg.de
-    - [ ] Blog
-    - [x] Projektseite
-
 
 ### Deployment
 
-Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production. Preview until DNS is redirected: [chaos-flensburg.de](http://chaos-flensburg.de/)
+Deployment is done via Travis-CI. Update the branch "deploy" from "master" to push into production.  
+Site is live @ [Chaostreff-Flensburg.de](http://chaostreff-flensburg.de).
