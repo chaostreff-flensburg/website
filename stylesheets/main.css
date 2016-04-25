@@ -93,7 +93,7 @@ header {
 nav {
  font-family: "silombold", monospace;
  position: fixed;
- margin-top: 50vh;
+ bottom: 40vh;
  width: 100vw;
  z-index: 5;
  display: flex;
@@ -109,12 +109,19 @@ nav a {
   filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
 }
 
+@media (max-width: 620px) {
+  nav a {
+    font-size: 1.5em !important;
+  }
+}
+
 nav a:hover {
   color: #488dcb;
 }
 
 .ctflLogo {
   max-width: 100%;
+  max-width: 800px;
   /* change logo size with margin l & r */
   margin-left: 30%;
   margin-right: 30%;
@@ -124,16 +131,33 @@ nav a:hover {
   filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
 }
 
+@media (max-width: 800px) {
+  .ctflLogo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 .earth {
   position: fixed;
   top: 70vh;
   margin-left: 35%;
   margin-right: 35%;
-  z-index: 10;
   width: 30%;
+  z-index: 10;
   -webkit-filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
   filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
 }
+
+@media (max-width: 620px) {
+  .earth {
+    top: 80vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
+
 
 
 /* === CONTENT === */
