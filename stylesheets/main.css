@@ -137,10 +137,10 @@ nav a:hover {
 
 .earth {
   position: fixed;
-  top: 70vh;
-  margin-left: 35%;
-  margin-right: 35%;
-  width: 30%;
+  top: 75vh;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
   z-index: 10;
 }
 
