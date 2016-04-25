@@ -93,7 +93,7 @@ header {
 nav {
  font-family: "silombold", monospace;
  position: fixed;
- bottom: 40vh;
+ top: 57vh;
  width: 100vw;
  z-index: 5;
  display: flex;
