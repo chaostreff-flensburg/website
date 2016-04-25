@@ -242,3 +242,15 @@ nav a:hover {
 .donations {
   max-width: 600px;
 }
+
+
+/* === SATZUNG === */
+
+.satzungcontent {
+  position: absolute;
+  margin-top: 5vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
