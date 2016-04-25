@@ -49,6 +49,7 @@ h1 {
   color: #262628;
   font-weight: 200;
   font-size: 2em;
+  width: 100%;
 }
 
 h2 {
@@ -185,4 +186,31 @@ nav a:hover {
     padding-left: 1em;
     padding-right: 1em;
   }
+}
+
+.cardcontent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+/* === ABOUT === */
+
+.about {
+}
+
+.about p {
+  max-width: 800px;
+  min-width: 300px;
+  flex-grow: 2;
+}
+
+.about img {
+  width: 17em;
+  height: 12.565em;
+  margin-left: 4em;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
