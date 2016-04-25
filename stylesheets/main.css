@@ -238,3 +238,7 @@ nav a:hover {
 }
 
 /* === CONTACT === */
+
+.donations {
+  max-width: 600px;
+}
