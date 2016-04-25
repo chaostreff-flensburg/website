@@ -192,9 +192,9 @@ nav a:hover {
 
 .cardcontent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-
+  padding-right: 2em;
 }
 
 /* === ABOUT === */
