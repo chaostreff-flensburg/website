@@ -203,7 +203,7 @@ nav a:hover {
 }
 
 .about .cardcontent p {
-  max-width: 800px;
+  max-width: 600px;
   min-width: 300px;
   flex-grow: 2;
 }
@@ -224,13 +224,13 @@ nav a:hover {
 /* === JOIN US === */
 
 .join .cardcontent p {
-  max-width: 600px;
+  max-width: 500px;
   min-width: 300px;
   flex-grow: 2;
 }
 
 .googleMaps {
-  max-width: 600px;
+  max-width: 500px;
   width: 90%;
   max-height: 370px;
   min-height: 300px;
@@ -240,7 +240,7 @@ nav a:hover {
 /* === CONTACT === */
 
 .donations {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 
