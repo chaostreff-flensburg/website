@@ -1,22 +1,13 @@
 {
   "name": "chaostreffflensburgde",
+  "scripts": {
+    "test": "node deploy-via-travis.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chaostreff-flensburg/website.git"
   },
   "bugs": {
     "url": "https://github.com/chaostreff-flensburg/website/issues"
-  },
-  "description": "![Logo Chaostreff Flensburg](./doc/logo.png)",
-  "homepage": "https://github.com/chaostreff-flensburg/website#readme",
-  "version": "0.0.1",
-  "main": " ",
-  "directories": {
-    "doc": "doc"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp-sass": "^2.3.1"
   }
 }
