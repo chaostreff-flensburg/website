@@ -126,6 +126,7 @@ nav a:hover {
   margin-right: 30%;
   margin-top: 4em;
   position: fixed;
+  max-height: 42.5vh;
 }
 
 @media (max-width: 800px) {
