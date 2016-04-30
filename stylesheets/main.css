@@ -91,6 +91,14 @@ header {
   z-index: 0;
 }
 
+header ::selection {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+header ::-moz-selection {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 nav {
  font-family: "silombold", monospace;
  position: fixed;
