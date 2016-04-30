@@ -211,19 +211,17 @@ nav a:hover {
 .about {
 }
 
-.about .cardcontent p {
-  max-width: 600px;
-  min-width: 200px;
-  flex-grow: 2;
+.aboutus {
 }
 
-.about img {
-  width: 17em;
-  height: 12.565em;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+.chaosknoten {
+  text-align: center;
+}
+
+.chaosknoten img {
+  height: 12em;
+  width: auto;
+  margin-top: 2em;
 }
 
 
