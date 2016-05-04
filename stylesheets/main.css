@@ -314,18 +314,12 @@ nav a:hover {
 
 /* === JOIN US === */
 
-.join .cardcontent p {
-  max-width: 500px;
-  min-width: 200px;
-  flex-grow: 2;
-}
-
 .googleMaps {
-  max-width: 500px;
-  width: 90%;
+  max-width: 100%;
   max-height: 370px;
   min-height: 300px;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 /* === CONTACT === */
