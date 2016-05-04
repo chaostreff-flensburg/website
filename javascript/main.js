@@ -2,10 +2,10 @@
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > 600) {
-        $('.hideonscroll').addClass("hidden");
+        $('.hideonscroll').fadeOut();
     }
 
     if ($(this).scrollTop() < 600) {
-        $('.hideonscroll').removeClass("hidden");
+        $('.hideonscroll').fadeIn();
     }
 });
