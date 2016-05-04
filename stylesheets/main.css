@@ -335,7 +335,5 @@ nav a:hover {
   position: absolute;
   margin-top: 5vh;
   z-index: 100;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  max-width: 85%;
 }
