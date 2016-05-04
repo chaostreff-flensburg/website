@@ -166,12 +166,20 @@ nav a:hover {
 /* === CONTENT === */
 
 .content {
+  max-width: 100vw;
   position: absolute;
-  margin-top: 92.5vh;
+  margin-top: 87.5vh;
   z-index: 100;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .content {
+    margin-top: 82.5vh;
+  }
 }
 
 .content ::selection {
@@ -184,24 +192,22 @@ nav a:hover {
 
 .card {
   background-color: white;
-  max-width: 1280px;
+  max-width: 100%;
   width: 100%;
   margin-top: 1em;
-  margin-bottom: 2em;
-  margin-left: 4em;
-  margin-right: 4em;
-  border-radius: 3px;
-  padding-left: 2em;
-  padding-right: 2em;
+  margin-bottom: 16em;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-left: 6em;
+  padding-right: 6em;
   padding-bottom: 1em;
-  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
 }
 
 @media (max-width: 620px) {
   .card {
-    max-width: 98% !important;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -217,10 +223,55 @@ nav a:hover {
   background-color: #488dcb;
 }
 
+.paper-up {
+  width: 110vw;
+  height: auto;
+  margin-left: -5vw;
+  margin-bottom: -24em;
+  margin-top: -16em;
+  transform: rotate(-2deg);
+  z-index: -5;
+}
+
+.paper-down {
+  width: 120vw;
+  height: auto;
+  margin-left: -10vw;
+  margin-bottom: 0em;
+  margin-top: -32em;
+  transform: rotate(178deg);
+  z-index: -5;
+}
+
+@media (max-width: 1024px) {
+  .paper-up {
+    width: 150vw !important;
+    margin-left: -25vw !important;
+  }
+  .paper-down {
+    width: 170vw !important;
+    margin-left: -40vw !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .paper-up {
+    width: 200vw !important;
+    margin-left: -35vw !important;
+    margin-bottom: -26em;
+  }
+  .paper-down {
+    width: 220vw !important;
+    margin-left: -45vw !important;
+    margin-top: -33em;
+  }
+}
+
 
 /* === ABOUT === */
 
 .about {
+  margin-top: 6em;
 }
 
 .aboutus {
@@ -239,7 +290,9 @@ nav a:hover {
 
 /* === PROJECTS === */
 
-.projects {}
+.projects {
+  margin-top: 6em;
+}
 
 .project {
   max-width: 100%;
@@ -308,6 +361,10 @@ nav a:hover {
 
 /* === JOIN US === */
 
+.join {
+  margin-top: 6em;
+}
+
 .googleMaps {
   max-width: 100%;
   max-height: 370px;
@@ -316,7 +373,12 @@ nav a:hover {
   text-align: center;
 }
 
+
 /* === CONTACT === */
+
+.contact {
+  margin-top: 6em;
+}
 
 .donations {
   max-width: 100%;
