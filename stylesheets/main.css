@@ -392,6 +392,41 @@ nav a:hover {
 }
 
 
+/* === FOOTER === */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -5em;
+  margin-right: -20em;
+  transform: rotate(-12deg);
+}
+
+.footer-paper {
+  margin-bottom: -1em;
+}
+
+.footer-bg {
+  background-color: white;
+  height: 100px;
+  width: 1200px;
+}
+
+.footer-nav {
+  position: absolute;
+  right: 1.5em;
+  bottom: 0.25em;
+  width: 18em;
+  height: auto;
+  z-index: 100;
+}
+
+.footer-nav img {
+  width: 70%;
+  height: auto;
+}
+
 /* === SATZUNG === */
 
 .satzungcontent {
