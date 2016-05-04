@@ -267,6 +267,13 @@ nav a:hover {
   }
 }
 
+.paper-up-str {
+  transform: rotate(0deg) !important;
+}
+
+.paper-down-str {
+  transform: rotate(180deg) !important;
+}
 
 /* === ABOUT === */
 
