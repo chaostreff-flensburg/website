@@ -217,12 +217,6 @@ nav a:hover {
   background-color: #488dcb;
 }
 
-.cardcontent {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-right: 0em;
-}
 
 /* === ABOUT === */
 
