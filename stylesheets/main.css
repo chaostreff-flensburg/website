@@ -325,6 +325,7 @@ nav a:hover {
 
 .project a {
   float: right;
+  margin-bottom: 1em;
 }
 
 .projectImg {
