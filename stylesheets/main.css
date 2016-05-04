@@ -47,24 +47,24 @@ body {
 
 h1 {
   color: #262628;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2em;
   width: 100%;
 }
 
 h2 {
   color: #262628;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h3 {
   color: #262628;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 h4 {
   color: #262628;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 p {
@@ -313,7 +313,7 @@ nav a:hover {
   margin-left: 0.25em;
 }
 
-.project h3 {
+.project h4 {
   margin-top: 0.25em;
   margin-left: 0.25em;
 }
@@ -343,7 +343,7 @@ nav a:hover {
 }
 
 .foerdefunk h2 {
-  border-bottom: solid 2px red;
+  border-bottom: solid 1px red;
 }
 
 .foerdefunkImg {
@@ -351,7 +351,7 @@ nav a:hover {
 }
 
 .druck h2 {
-  border-bottom: solid 2px #488dcb;
+  border-bottom: solid 1px #488dcb;
 }
 
 .druckImg {
@@ -359,7 +359,7 @@ nav a:hover {
 }
 
 .textil h2 {
-  border-bottom: solid 2px yellow;
+  border-bottom: solid 1px yellow;
 }
 
 .textilImg {
