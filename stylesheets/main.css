@@ -83,7 +83,7 @@ header {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-image: url("/images/universe.jpg");
+  background-image: url("../images/universe.jpg");
 }
 
 .particles-js-canvas-el {
