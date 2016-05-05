@@ -366,6 +366,12 @@ nav a:hover {
   background-image: url("/images/projectimages/textil.jpg");
 }
 
+td {
+  padding-right: 2em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
 /* === JOIN US === */
 
 .join {
