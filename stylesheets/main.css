@@ -442,3 +442,34 @@ td {
   z-index: 100;
   max-width: 85%;
 }
+
+/* === RAUMORDNUNG === */
+
+.raumordnungscontent {
+  max-width: 100vw;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-raumordnungscontent: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+
+.raumordnungscontent ::selection {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.raumordnungscontent ::-moz-selection {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.spacecontrol {
+  margin-top:6em;
+}
+
+@media (max-width: 900px) {
+  .spacecontrol {
+    margin-top: 5em;
+  }
+}
